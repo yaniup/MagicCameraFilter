@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/login_container"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="鲸醒云直播"
+            android:textColor="#6EABF1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/phone_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/rounded_corner_rectangle"
+            android:hint="请输入手机号"
+            android:inputType="number"
+            android:singleLine="true"
+            android:padding="8dp"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/verified_code_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_corner_rectangle"
+            android:hint="请输入验证码"
+            android:singleLine="true"
+            android:padding="8dp"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/phone_edit"
+            app:layout_constraintStart_toStartOf="@+id/phone_edit"
+            app:layout_constraintTop_toBottomOf="@+id/phone_edit" />
+
+        <TextView
+            android:id="@+id/send_verified_code_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/verified_code_bg"
+            app:layout_constraintBottom_toBottomOf="@+id/phone_edit"
+            app:layout_constraintEnd_toEndOf="@+id/phone_edit"
+            app:layout_constraintTop_toTopOf="@+id/phone_edit" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="未注册号码自动注册"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/verified_code_edit"
+            app:layout_constraintTop_toBottomOf="@+id/verified_code_edit" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="登陆"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:background="@drawable/login_bg"
+            app:layout_constraintEnd_toEndOf="@+id/verified_code_edit"
+            app:layout_constraintStart_toStartOf="@+id/verified_code_edit"
+            app:layout_constraintTop_toBottomOf="@+id/verified_code_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

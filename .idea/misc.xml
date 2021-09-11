@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/drawable/live_chat_item_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/drawable/login_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/drawable/rounded_corner_rectangle.xml" value="0.3828125" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/drawable/verified_code_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/drawable/vertified_code_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/demo.xml" value="0.33" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/filter_bottom_dialog.xml" value="0.5" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/live_chat_item.xml" value="0.33" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/live_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/login_page.xml" value="0.5" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/product_show_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/product_show_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android_Project/LiveStream/app/src/main/res/layout/splash_page.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
